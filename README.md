@@ -22,7 +22,7 @@ All the changes are implemented for the XPBD solver.
 * **[Self-collisions]** Implemented point-triangle and edge-edge self-collisions detection and resolution for cloth simulation following the works of [Cincotti C.](https://carmencincotti.com/2022-11-21/cloth-self-collisions/) and [Lewin, C.](https://www.semanticscholar.org/paper/Cloth-Self-Collision-with-Predictive-Contacts-Lewin/211d9e302549c1d6ae645b99a70fd9dca417c85f).
 * **[Attachment]** Added support for equality and inequality-based attachment constraints used for, e.g., fixing the skirt placement on the waist area
 * **[Body-part drag for initial collision resolution]** Introduced body-part based collision resolution constraint that drags intersecting garment panels towards their corresponding body parts untill the collisions are resolved. This helps with resolving initialization issues.
-* **[Body model collision constraint]**Introduces body collision constraints that pushed the cloth parts found inside the body model outside.
+* **[Body model collision constraint]** Introduces body collision constraints that pushed the cloth parts found inside the body model outside.
 * **[Edge-based ray intersection]** Additional mesh intersection query: `mesh_query_edge()` and a placeholder for `adj_mesh_query_edge()` -- similar to `mesh_query_ray()` function, but with the length limit on the ray
 
 ### Fixes
